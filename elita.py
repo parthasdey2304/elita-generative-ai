@@ -4,7 +4,6 @@ import re
 from pygments import highlight
 from pygments.lexers import get_lexer_by_name
 from pygments.formatters import TerminalFormatter
-import os
 
 if len(sys.argv) != 2:
     print("Usage: python elita.py <prompt>")
@@ -30,8 +29,8 @@ headers = {
     "X-RapidAPI-Host": "chatgpt-best-price.p.rapidapi.com"
 }
 
-os.system('echo -e "\e[32m[INFO] Generating...."')
-os.system('echo -e "\e[32m[INFO] Here we go!!')
+# os.system('echo -e "\e[32m[INFO] Generating...."')
+# os.system('echo -e "\e[32m[INFO] Here we go!!')
 
 response = requests.post(url, json=payload, headers=headers)
 response = response.json()
