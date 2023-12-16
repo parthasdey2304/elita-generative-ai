@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Get the input from the command line
+prompt="$*"
+
+# Check if a prompt is provided
+if [ -z "$prompt" ]; then
+    echo "Usage: elita \"<prompt>\""
+    exit 1
+fi
+
+# Run the Python script with the provided prompt
+python3 /bin/elita.py "$prompt"
