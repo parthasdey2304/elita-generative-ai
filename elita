@@ -10,5 +10,5 @@ if [ -z "$prompt" ]; then
 fi
 
 # Run the Python script with the provided prompt
-echo -e "\e[32m[INFO] Generating..\e[0m"
+echo -e "\e[32mYes Sir! Generating...\e[0m"
 python3 /bin/elita.py "$prompt"
