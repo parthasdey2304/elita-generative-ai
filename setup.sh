@@ -1,16 +1,18 @@
 #!/bin/bash
-echo -e "\e32m[INFO] Getting things ready for you!"
+echo -e "\e[32m[INFO] Getting things ready for you!\e[0m"
 
 sleep 1
 
-echo "[INFO] Setting up the scripts..."
+echo -e "\e[32m[INFO] Setting up the scripts...\e[0m"
 sudo cp elita /bin
 sudo cp elita.py /bin
 sudo chmod +x /bin/elita
 sudo chmod +x /bin/elita.py
 
-echo "[INFO] Installing Dependencies..."
+sleep 1
+
+echo -e "\e[32m[INFO] Installing Dependencies...\e[0m"
 pip install requests
 pip install pygments
 
-echo -e "Now you are good to go! Type \e[31m elita 'good morning'\e[32m and see Elita generate content for you!"
+echo -e "\e[32mNow you are good to go! Type \e[33m elita 'good morning'\e[32m and see Elita generate content for you!"
