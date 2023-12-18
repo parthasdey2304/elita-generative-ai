@@ -25,7 +25,7 @@ payload = {
 
 headers = {
     "content-type": "application/json",
-    "X-RapidAPI-Key": "c6150aa0fbmshc0a1461851bd7ecp100c48jsnac068272b7e6",
+    "X-RapidAPI-Key": "USE_YOUR_OWN_RAPID_API_KEY",
     "X-RapidAPI-Host": "chatgpt-best-price.p.rapidapi.com"
 }
 
