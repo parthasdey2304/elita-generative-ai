@@ -38,6 +38,20 @@ Enter the repository :
 cd elita-generative-ai
 ```
 
++ Headover to the website [RapidAPI](https://rapidapi.com/truongvuhung102/api/chatgpt-best-price/details) to get the API keys : 
++ Subscribe to the Test API with whatever plan you are comfortable, and make the payment.
++ Scroll down to header parameters in the EndPoint tab.
++ Grab your RapidAPI key.
++ Paste it in the python code for `elita.py` in the `headers` dictionary in `X-RapidAPI-Key` using vim.
++ Use the command `vim elita.py` and the paste the API key and press `ESC + :x` and exit the vim:
+```python
+    26  headers = {
+    27      "content-type": "application/json",
+    28      "X-RapidAPI-Key": "PASTE_THE_API_KEY_HERE",
+    29      "X-RapidAPI-Host": "chatgpt-best-price.p.rapidapi.com"
+    30  }
+```
+
 Run the `setup.sh` file : 
 ``` sh
 ./setup.sh
