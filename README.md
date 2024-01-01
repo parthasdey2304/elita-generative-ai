@@ -72,7 +72,7 @@ Output
 ```bash
 ┌──(partha㉿xiaomi)-[~]
 └─$ elita 'give me the code for palindrome number in java!'
-[INFO] Generating..
+Yes Sir! Generating...
 Here's the code for checking if a number is a palindrome in Java:
 
 |java
